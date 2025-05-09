@@ -135,9 +135,7 @@
 
       largura: "20px",
 
-      preenchimento: [`{
-  color: "#fff",
-}`],
+      preenchimento: [`#fff`],
 
       args,
     }}/>],
