@@ -137,7 +137,7 @@
 
       styles:[{
   width: "500px",
-  height: "800px",
+  height: "900px",
   position: "absolute",
   zIndex: -1,
 }],
