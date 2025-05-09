@@ -88,7 +88,7 @@
               }
               ],
 
-      URIvariablePath:["https://images.unsplash.com/photo-1488831861984-179da3647265?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"],
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FGTA%20VI%20Logo.png?alt=media&token=c74d76cb-f7fe-4aa9-b5c5-4da9e20065f5`],
 
       args,
     }}/>],
