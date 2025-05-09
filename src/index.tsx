@@ -34,6 +34,7 @@
 }`],
 
           screenElements:[
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -128,7 +129,21 @@
 
             args,
           }}/>
-        ],
+        , 
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[{
+  width: "100%",
+  height: "100%",
+  position: "absolute",
+}],
+
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FbgGTA6.png?alt=media&token=c638dcff-2462-466b-a4c3-c728a607323b`],
+
+      args,
+    }}/>],
 
           functions:[()=>{}],
 
