@@ -84,6 +84,8 @@
   height: 30,
   alignItems: "center",
   justifyContent: "center",
+  position: "absolute",
+  right: "10px",
 }`],
 
             functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.SvgView1 pass={{
