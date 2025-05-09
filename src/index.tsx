@@ -138,6 +138,7 @@
   width: "100%",
   height: "100%",
   position: "absolute",
+  zIndex: 1,
 }],
 
       URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FbgGTA6.png?alt=media&token=c638dcff-2462-466b-a4c3-c728a607323b`],
