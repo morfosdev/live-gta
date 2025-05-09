@@ -151,8 +151,8 @@
 	const [timeLeft, setTimeLeft] = React.useState({ days: 0, hours: '00', minutes: '00', seconds: '00' });
 
 	const style_1 = { alignItems: 'center', justifyContent: 'center' };
-	const style_days = { fontSize: 48, fontWeight: 'bold', color: '#000' };
-	const style_time = { fontSize: 32, color: '#000' };
+	const style_days = { fontSize: 48, fontWeight: 'bold', color: '#fff' };
+	const style_time = { fontSize: 32, color: '#fff' };
 
 	const formatTime = (time) => { 
 		const days = Math.floor(time / (3600 * 24)); 
