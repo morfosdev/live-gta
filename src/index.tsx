@@ -218,6 +218,18 @@
           args,
 
         }}/>, 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{ height: "10px"}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
         () => {
 	const targetDate = '2025-12-31T23:59:59';
 	const [timeLeft, setTimeLeft] = React.useState({ days: 0, hours: '00', minutes: '00', seconds: '00' });
@@ -256,6 +268,18 @@
 		</RN.View>
 	);
 }, 
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{ height: "10px"}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        , 
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
