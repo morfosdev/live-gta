@@ -130,6 +130,7 @@
             args,
           }}/>
         , 
+        
 
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
@@ -144,7 +145,65 @@
       URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FbgGTA6.png?alt=media&token=c638dcff-2462-466b-a4c3-c728a607323b`],
 
       args,
-    }}/>],
+    }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+  backgroundColor: "transparent",
+  width: "100%",
+  height: "100%",
+  alignItems: "center",
+  justifyContent: "center",
+}`],
+
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [() => {
+	const targetDate = '2025-12-31T23:59:59';
+	const [timeLeft, setTimeLeft] = React.useState({ days: 0, hours: '00', minutes: '00', seconds: '00' });
+
+	const style_1 = { alignItems: 'center', justifyContent: 'center' };
+	const style_days = { fontSize: 48, fontWeight: 'bold', color: '#000' };
+	const style_time = { fontSize: 32, color: '#000' };
+
+	const formatTime = (time) => { 
+		const days = Math.floor(time / (3600 * 24)); 
+		const hours = String(Math.floor((time % (3600 * 24)) / 3600)).padStart(2, '0'); 
+		const minutes = String(Math.floor((time % 3600) / 60)).padStart(2, '0'); 
+		const seconds = String(time % 60).padStart(2, '0'); 
+
+		return { days, hours, minutes, seconds }; 
+	};
+
+	React.useEffect(() => { 
+		const countdown = () => { 
+		const now = new Date().getTime(); 
+		const target = new Date(targetDate).getTime(); 
+		if (isNaN(target)) { 
+			setTimeLeft({ days: 0, hours: '00', minutes: '00', seconds: '00' }); 
+			return; 
+	} 
+		const distance = target - now; if (distance <= 0) { setTimeLeft({ days: 0, hours: '00', minutes: '00', seconds: '00' }); return; } 
+		const timeInSeconds = Math.floor(distance / 1000); 
+		const { days, hours, minutes, seconds } = formatTime(timeInSeconds); setTimeLeft({ days, hours, minutes, seconds }); }; 
+		const intervalId = setInterval(countdown, 1000); return () => clearInterval(intervalId); 
+	}, [targetDate]);
+
+	return (
+		<RN.View style={style_1}>
+			<RN.Text style={style_days}>{timeLeft.days} DAYS</RN.Text>
+			<RN.Text style={style_time}>{timeLeft.hours} : {timeLeft.minutes} : {timeLeft.seconds} LEFT</RN.Text>
+		</RN.View>
+	);
+}]
+ , trigger: 'on init'
+}})],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
           functions:[()=>{}],
 
