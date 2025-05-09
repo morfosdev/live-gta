@@ -69,6 +69,7 @@
             args,
           }}/>
         , 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -96,6 +97,22 @@
           args,
 
         }}/>],
+
+            args,
+          }}/>
+        , 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+  width: 30,
+  height: 30,
+  alignItems: "center",
+  justifyContent: "center",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
 
             args,
           }}/>
