@@ -71,6 +71,7 @@
 
             styles:[`{
   flex: 1,
+  alignItems: "center",
 }`],
 
             functions:[()=>{}],            childrenItems:[
