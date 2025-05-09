@@ -136,8 +136,8 @@
       elementsProperties:[{}],
 
       styles:[{
-  width: "600px",
-  height: "600px",
+  width: "500px",
+  height: "800px",
   position: "absolute",
   zIndex: -1,
 }],
