@@ -155,6 +155,7 @@
             `{
   color: "#FFF",
   textAlign: "center",
+  fontSize: "20px",
 }`
           ],
 
