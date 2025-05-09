@@ -209,20 +209,39 @@
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
 
-            styles:[
-              {
-                backgroundColor: 'white',
-                justifyContent: 'center',
-                minHeight: 22,
-                width: "100%",
-              }
-              ],
+            styles:[`{
+  flexDirection: "row",
+  backgroundColor: "transparent",
+  alignItems: "center",
+  justifyContent: "center",
+  width: 160,
+  height: 28,
+  borderRadius: 5,
+}`],
 
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
  arrFunctions: [()=>{}]
  , trigger: 'on press'
-}})],            childrenItems:[() =><></>],
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+  color: "#FFF",
+  textAlign: "center",
+}`
+          ],
+
+          children: [
+            `PRE-ORDER NOW`
+          ],
+
+          args,
+
+        }}/>],
 
             args,
           }}/>
