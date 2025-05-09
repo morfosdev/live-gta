@@ -40,9 +40,9 @@
 
             styles:[`{
   flexDirection: "row",
-  backgroundColor: "transparent",
   alignItems: "center",
   width: "100%",
+  ImageBackground source= {uri: 'https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FGTA%20VI%20Logo.png?alt=media&token=c74d76cb-f7fe-4aa9-b5c5-4da9e20065f5'} resizeMode="cover" style={}
 }`],
 
             functions:[()=>{}],            childrenItems:[
@@ -72,30 +72,24 @@
   flex: 1,
 }`],
 
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
+            functions:[()=>{}],            childrenItems:[
 
-          arrStyles: [
-            `{
-  color: "#FFF",
-  textAlign: "center",
-}`
-          ],
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
 
-          children: [
-            `GTA VI`
-          ],
+      styles:[{
+   width: "1080px",
+   height: "607px"
+}],
 
-          args,
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FGTA%20VI%20Logo.png?alt=media&token=c74d76cb-f7fe-4aa9-b5c5-4da9e20065f5`],
 
-        }}/>],
+      args,
+    }}/>],
 
             args,
           }}/>
         , 
-        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
@@ -142,25 +136,7 @@
 
             args,
           }}/>
-        , 
-
-    (...args:any) => <Elements.ImageBox pass={{
-      elementsProperties:[{}],
-
-      styles:[
-              {
-                height: "50px",
-                width: "80px",
-                backgroundColor: "#FDFDFD",
-                borderWidth: 2,
-                borderColor: "#EEE"
-              }
-              ],
-
-      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FGTA%20VI%20Logo.png?alt=media&token=c74d76cb-f7fe-4aa9-b5c5-4da9e20065f5`],
-
-      args,
-    }}/>],
+        ],
 
             args,
           }}/>
