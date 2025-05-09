@@ -77,10 +77,15 @@
     (...args:any) => <Elements.ImageBox pass={{
       elementsProperties:[{}],
 
-      styles:[{
-   width: "1080px",
-   height: "607px"
-}],
+      styles:[
+              {
+                height: "50px",
+                width: "80px",
+                backgroundColor: "#FDFDFD",
+                borderWidth: 2,
+                borderColor: "#EEE"
+              }
+              ],
 
       URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FGTA%20VI%20Logo.png?alt=media&token=c74d76cb-f7fe-4aa9-b5c5-4da9e20065f5`],
 
