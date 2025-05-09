@@ -166,6 +166,26 @@
           args,
 
         }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
+  color: "#FFF",
+  textAlign: "center",
+  fontSize: "12px",
+}`
+          ],
+
+          children: [
+            `The game of the decade has finally arrived`
+          ],
+
+          args,
+
+        }}/>, 
         () => {
 	const targetDate = '2025-12-31T23:59:59';
 	const [timeLeft, setTimeLeft] = React.useState({ days: 0, hours: '00', minutes: '00', seconds: '00' });
