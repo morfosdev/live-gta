@@ -291,7 +291,7 @@ alignItems: "center",
   alignItems: "center",
   justifyContent: "center",
   width: "300px",
-  height: "50px",
+  height: "100px",
   borderRadius: 5,
 }`],
 
