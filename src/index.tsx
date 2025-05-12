@@ -186,6 +186,26 @@ alignItems: "center",
 
           arrStyles: [
             `{
+  color: "#000",
+  textAlign: "center",
+  fontSize: "22px",
+}`
+          ],
+
+          children: [
+            `ALMOST THERE`
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{
   color: "#FFF",
   textAlign: "center",
   fontSize: "12px",
