@@ -297,7 +297,11 @@ alignItems: "center",
 
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
- arrFunctions: [()=>{}]
+ arrFunctions: [async (...args) =>
+        functions.setVar({ args, pass:{
+          keyPath: [`teste`],
+          value: [`Fui clickado!!!`]
+        }})]
  , trigger: 'on press'
 }})],            childrenItems:[
 
