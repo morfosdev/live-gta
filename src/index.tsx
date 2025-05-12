@@ -188,7 +188,7 @@ alignItems: "center",
             `{
   color: "#000",
   textAlign: "center",
-  fontSize: "22px",
+  fontSize: "21px",
   position: "absolute",
   top: 160,
   zIndex: -1,
