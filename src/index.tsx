@@ -169,6 +169,7 @@ alignItems: "center",
   color: "#FFF",
   textAlign: "center",
   fontSize: "20px",
+  stroke: 2,
  }`
           ],
 
