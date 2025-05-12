@@ -149,8 +149,7 @@ alignItems: "center",
       elementsProperties:[{}],
 
       styles:[{
-  flex: "1",
-  resizeMode: "contain",
+  flex: 1,
   position: "absolute",
   zIndex: -1,
 }],
