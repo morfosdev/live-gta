@@ -31,7 +31,7 @@
 
           styles:[`{
   flex: 1,
-alignItems: "center",
+  alignItems: "center",
 }`],
 
           screenElements:[
