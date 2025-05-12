@@ -299,25 +299,20 @@ alignItems: "center",
  functions.funcGroup({ args, pass:{
  arrFunctions: [()=>{}]
  , trigger: 'on press'
-}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
+}})],            childrenItems:[
 
-          arrStyles: [
-            `{
-  color: "#FFF",
-  textAlign: "center",
-}`
-          ],
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
 
-          children: [
-            `PRE-ORDER NOW`
-          ],
+      styles:[{
+width: "356",
+height: "90",
+}],
 
-          args,
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FGTAbtnPreOrder.png?alt=media&token=5b9f5b72-aa71-48d2-83e3-074441571300`],
 
-        }}/>],
+      args,
+    }}/>],
 
             args,
           }}/>
