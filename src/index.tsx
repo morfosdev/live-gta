@@ -149,7 +149,7 @@ alignItems: "center",
       elementsProperties:[{}],
 
       styles:[{
-  width: "300px",
+  width: "800px",
   height: "900px",
   position: "absolute",
   zIndex: -1,
