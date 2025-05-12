@@ -297,12 +297,7 @@ alignItems: "center",
 
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
- arrFunctions: [
-        (...args) => {
-          // ---------- get Function from A_Project Scope
-          return tools.goTo("otherPage");
-        }
-        ]
+ arrFunctions: [()=>{}]
  , trigger: 'on press'
 }})],            childrenItems:[
 
