@@ -305,7 +305,7 @@ alignItems: "center",
       elementsProperties:[{}],
 
       styles:[{
-  width: "160px",
+  width: "158px",
   height: "26px",
 }],
 
