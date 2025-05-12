@@ -169,6 +169,9 @@ alignItems: "center",
   color: "#FFF",
   textAlign: "center",
   fontSize: "20px",
+  borderStyle: "solid",
+  borderWidth: "1px",
+  borderColor: "black",
 }`
           ],
 
@@ -297,7 +300,12 @@ alignItems: "center",
 
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
- arrFunctions: [()=>{}]
+ arrFunctions: [
+        (...args) => {
+          // ---------- get Function from A_Project Scope
+          return tools.goTo("otherPage");
+        }
+        ]
  , trigger: 'on press'
 }})],            childrenItems:[
 
