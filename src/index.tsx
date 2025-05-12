@@ -170,8 +170,7 @@ alignItems: "center",
   textAlign: "center",
   fontSize: "20px",
   textShadowColor: "black",
-  textShadowOffset: "{width: 5, height: 5}",
-}`
+ }`
           ],
 
           children: [
