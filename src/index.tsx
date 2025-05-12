@@ -149,8 +149,8 @@ alignItems: "center",
       elementsProperties:[{}],
 
       styles:[{
-  width: "1000px",
-  height: "1000px",
+  flex: 1,
+  resizeMode: "contain",
   position: "absolute",
   zIndex: -1,
 }],
