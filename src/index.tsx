@@ -190,6 +190,7 @@ alignItems: "center",
   textAlign: "center",
   fontSize: "22px",
   position: "absolute",
+  top: 100,
 }`
           ],
 
