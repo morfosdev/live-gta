@@ -155,7 +155,7 @@ alignItems: "center",
   zIndex: -1,
 }],
 
-      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FGTAbg.png?alt=media&token=25cc8973-7501-413a-b3f5-a26a51d0e5d5`],
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FGTAbg.png?alt=media&token=807a5390-b6b3-4e90-ac71-f39e03c04da0`],
 
       args,
     }}/>, 
@@ -170,30 +170,6 @@ alignItems: "center",
   textAlign: "center",
   fontSize: "20px",
  }`
-          ],
-
-          children: [
-            `ALMOST THERE`
-          ],
-
-          args,
-
-        }}/>, 
-        (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            `{
-  color: "#000",
-  textAlign: "center",
-  fontSize: "21px",
-  fontStyle: "bold",
-  position: "absolute",
-  top: 160,
-  zIndex: -1,
-}`
           ],
 
           children: [
@@ -338,7 +314,7 @@ alignItems: "center",
   height: "50px",
 }],
 
-      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FGTAbtnPreOrder.png?alt=media&token=5b9f5b72-aa71-48d2-83e3-074441571300`],
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FGTAbtnPreOrder.png?alt=media&token=375e0f55-6f66-4608-b9d4-20b007af067b`],
 
       args,
     }}/>],
