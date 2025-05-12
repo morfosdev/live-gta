@@ -169,9 +169,8 @@ alignItems: "center",
   color: "#FFF",
   textAlign: "center",
   fontSize: "20px",
-  borderStyle: "solid",
-  borderWidth: "1px",
-  borderColor: "black",
+  textShadowColor: "black",
+  textShadowOffset:{width: 5, height: 5},
 }`
           ],
 
