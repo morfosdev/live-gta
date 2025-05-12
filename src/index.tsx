@@ -191,6 +191,7 @@ alignItems: "center",
   fontSize: "22px",
   position: "absolute",
   top: 160,
+  zIndex: -1,
 }`
           ],
 
