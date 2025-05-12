@@ -155,7 +155,7 @@ alignItems: "center",
   zIndex: -1,
 }],
 
-      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FbgGTA6.png?alt=media&token=c638dcff-2462-466b-a4c3-c728a607323b`],
+      URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FGTAbg.png?alt=media&token=25cc8973-7501-413a-b3f5-a26a51d0e5d5`],
 
       args,
     }}/>, 
