@@ -256,7 +256,7 @@ alignItems: "center",
           }}/>
         , 
         () => {
-	const targetDate = '2025-05-26T23:59:59';
+	const targetDate = '2026-05-26T23:59:59';
 	const [timeLeft, setTimeLeft] = React.useState({ days: 0, hours: '00', minutes: '00', seconds: '00' });
 
 	const style_1 = { alignItems: 'center', justifyContent: 'center' };
