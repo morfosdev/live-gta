@@ -150,7 +150,7 @@ alignItems: "center",
 
       styles:[{
   width: "100%",
-  height: "700px",
+  height: "720px",
   position: "absolute",
   zIndex: -1,
 }],
