@@ -306,7 +306,7 @@ alignItems: "center",
 
       styles:[{
   width: "200px",
-  height: "40px",
+  height: "60px",
 }],
 
       URIvariablePath:[`https://firebasestorage.googleapis.com/v0/b/devs-tests-95208.appspot.com/o/images%2FGTAbtnPreOrder.png?alt=media&token=5b9f5b72-aa71-48d2-83e3-074441571300`],
